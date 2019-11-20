@@ -282,7 +282,7 @@ public class PromptDialog {
     }
 
     private void showAlert(String text, boolean withAnim, PromptButton... button) {
-        if (button.length > 2) {
+        if (button.length > 1) {
             Log.i(TAG, "showAlert: " + promptView.getScrollY());
 
             inAnim = inSheetAnim;
