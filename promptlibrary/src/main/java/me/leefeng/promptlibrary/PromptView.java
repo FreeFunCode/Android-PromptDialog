@@ -647,7 +647,7 @@ class PromptView extends ImageView {
      */
     public void showLoading() {
         if (currentType == PROMPT_ALERT_WARN) {
-            isSheet = buttons.length > 2;
+            isSheet = buttons.length > 1;
         } else {
             isSheet = false;
         }
@@ -666,7 +666,7 @@ class PromptView extends ImageView {
     public void showSomthing(int currentType) {
         this.currentType = currentType;
         if (currentType == PROMPT_ALERT_WARN) {
-            isSheet = buttons.length > 2;
+            isSheet = buttons.length > 1;
         } else {
             isSheet = false;
         }
